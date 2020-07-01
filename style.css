@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.biography {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Images/header-bg.png");
+    background-size: cover;
+    /* background: red; */
+    padding: 10%;
+}
+
+.introduction,
+.my-biography {
+    width: 50%;
+    height: 100%;
+    /* background: red; */
+    float: left;
+}
+
+
+h1 {
+    color: #ec4c7a;
+    font-size: 50px;
+    margin: 25px 0;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+p {
+    text-align: justify;
+    margin: 30px 0;
+    color: #707070;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, #ec5195, #ec4c76);
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.welcome-picture {
+    width: 50%;
+    height: 100%;
+    /* background: blue; */
+    float: left;
+}
+
+.welcome-picture img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.biography {
+    /* other css of biography is above */
+    background-image: url("Images/biography-bg.png");
+}
+
+
+
+.latest-works {
+    height: 85vh;
+    width: 100%;
+    background-image: url("Images/latest-work-bg.png");
+    background-size: cover;
+    /* background: red; */
+    padding: 6%;
+}
+
+.latest-works h2 {
+    text-align: center;
+    height: 30%;
+    /* margin-bottom: 6%; */
+}
+
+.latest-work-pictures {
+    height: 60%;
+    width: 100%;
+    /* background: gold; */
+    /* margin-bottom: 6%; */
+}
+
+.latest-work-pictures img {
+    height: 100%;
+    width: 33%;
+    z-index: 111;
+    margin: 0;
+    float: left;
+}
+
+
+
+
+
+
+
+.section-for-client {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Images/footer-bg.png");
+    background-size: cover;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.client-comment {
+    height: 40%;
+    position: relative;
+    width: 32%;
+    margin: 50px 0.5%;
+    padding: 70px 2.5%;
+    float: left;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+}
+
+.client-comment::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to bottom, #ec5195, #ec4c76);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.section-for-client h1 {
+    color: black;
+    font-size: 45px;
+}
+
+.section-for-client h2 {
+    font-size: 30px;
+}
+
+#client-name {
+    font-size: 23px;
+}
+
+.section-for-client h3 {
+    line-height: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.section-for-client h5 {
+    margin: 10px 0 30px 0;
+    font-size: 15px;
+    color: #707070;
+}
+
+.show-email h5 {
+    color: white;
+}
+
+.show-email {
+    color: white;
+    background: linear-gradient(to right, #ec5195, #ec4c76);
+    margin: 30% 25% 0 25%;
+    border-radius: 7px;
+    padding: 40px 0;
+}
+
+footer p {
+    text-align: center;
+}
